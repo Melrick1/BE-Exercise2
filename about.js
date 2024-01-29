@@ -1,9 +1,8 @@
-const members = require('./members') //import members module
+const members = require('./members'); //import members module
+const moment = require('moment');
 
-const currentDate = new Date();
-// Format the date in ISO 8601 format with the timezone offset
 //format “2023-02-09T07:51:09+08:00”
-const formattedDate = currentDate.toISOString().replace(/\.\d{3}Z$/, '');
+const formattedDate = moment().format('MMMM Do YYYY, h:mm:ss a');
 
 
 //export module

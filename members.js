@@ -1,7 +1,7 @@
 // Export modules
 module.exports.hendy = () => {
     return {
-        "id": '1',
+        "id": 1,
         "nim": '105022110006',
         "nama": 'Batuwael, Hendy Riawan',
         "nomor_telp": '0813-4188-0098'
